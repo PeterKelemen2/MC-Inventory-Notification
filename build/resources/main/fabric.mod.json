@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "notifcationmod",
+  "version": "1.0-SNAPSHOT",
+  "name": "NotifcationMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Administrator/NotifcationMod"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/notifcationmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.petimod.notifcationmod.client.NotifcationModClient"
+    ],
+    "main": [
+      "org.petimod.notifcationmod.NotifcationMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
